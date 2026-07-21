@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ToolBox</title>
+
+    <link rel="stylesheet" href="/css/welcome.css">
+
+</head>
+
+<body>
+
+    <div id="background"></div>
+
+    <div class="overlay"></div>
+
+    <main class="welcome">
+
+        <img id="logo"
+             src="/assets/logo/closed.png"
+             alt="ToolBox">
+
+        <h1 id="title">
+
+            Bienvenido
+
+        </h1>
+
+        <p id="description">
+
+            Selecciona una herramienta para comenzar.
+
+        </p>
+
+        <div class="stats">
+
+            <div class="card">
+
+                <span id="tools">0</span>
+
+                <small>Herramientas</small>
+
+            </div>
+
+            <div class="card">
+
+                <span id="category">-</span>
+
+                <small>Categoría</small>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <script>
+
+        const params = new URLSearchParams(window.location.search);
+
+        document.getElementById("title").textContent =
+            params.get("title");
+
+        document.getElementById("description").textContent =
+            params.get("description");
+
+        document.getElementById("category").textContent =
+            params.get("title");
+
+        document.getElementById("tools").textContent =
+            params.get("tools");
+
+        document.getElementById("background").style.backgroundImage =
+            `url(../${params.get("background")})`;
+
+        document.documentElement.style.setProperty(
+            "--category-color",
+            params.get("color")
+        );
+
+    </script>
+
+</body>
+
+</html>

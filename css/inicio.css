@@ -1,0 +1,95 @@
+body{
+
+    margin:0;
+
+    font-family:Segoe UI, sans-serif;
+
+    background:#111827;
+
+    color:white;
+
+}
+
+.welcome{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:60px;
+
+    text-align:center;
+
+}
+
+.welcome-logo{
+
+    width:120px;
+
+    margin-bottom:20px;
+
+}
+
+h1{
+
+    font-size:40px;
+
+    margin:10px 0;
+
+}
+
+.subtitle{
+
+    color:#94a3b8;
+
+    margin-bottom:40px;
+
+}
+
+.welcome-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+    width:100%;
+
+    max-width:900px;
+
+}
+
+.welcome-card{
+
+    background:#1e293b;
+
+    padding:25px;
+
+    border-radius:12px;
+
+    border:1px solid #334155;
+
+    transition:.3s;
+
+}
+
+.welcome-card:hover{
+
+    transform:translateY(-5px);
+
+    border-color:#3b82f6;
+
+}
+
+footer{
+
+    margin-top:40px;
+
+    color:#64748b;
+
+}

@@ -1,0 +1,42 @@
+[
+{
+    "id": 4,
+
+    "name": "CPU-Z",
+
+    "category": "diagnostico",
+
+    "subcategory": "hardware",
+
+    "description": "Información detallada del procesador y la memoria.",
+
+    "url": "https://www.cpuid.com/softwares/cpu-z.html",
+
+    "icon": "assets/icons/cpuz.png",
+
+    "license": "Freeware",
+
+    "developer": "CPUID",
+
+    "version": "Latest",
+
+    "platform": [
+        "Windows"
+    ],
+
+    "website": "https://www.cpuid.com/",
+
+    "featured": false,
+
+    "favorite": false,
+
+    "lastUpdate": "2026-07-16",
+
+    "tags": [
+        "CPU",
+        "RAM",
+        "Hardware",
+        "Benchmark"
+    ]
+}
+]
