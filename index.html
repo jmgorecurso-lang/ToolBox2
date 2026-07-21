@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ToolBox 2.0</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Sarpanch:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- Splash Screen -->
+  <div id="splashScreen"></div>
+
+
+
+  <!-- Command Palette -->
+  <!-- <div id="commandPalette"></div> -->
+
+  <!-- Header -->
+  <header class="header">
+
+    <div class="logo">
+
+      <img id="appLogo" src="assets/logo/closed.png" alt="ToolBox">
+
+      <div>
+
+        <h1>ToolBox</h1>
+
+        <span>IT Technician Toolkit</span>
+
+      </div>
+
+    </div>
+
+    <div class="header-actions">
+
+      <input id="searchInput" type="search" placeholder="Buscar herramienta...">
+
+    </div>
+
+  </header>
+
+  <!-- Dashboard -->
+  <section class="dashboard">
+
+    <div class="dashboard-card">
+      <span id="toolsCounter">0</span>
+      <small>Herramientas</small>
+    </div>
+
+    <div class="dashboard-card">
+      <span id="categoryCounter">0</span>
+      <small>Categorías</small>
+    </div>
+
+    <!-- <div class="dashboard-card">
+      <span id="favoritesCounter">0</span>
+      <small>Favoritos</small>
+    </div> -->
+
+    <div class="dashboard-card">
+      <span id="recentCounter">0</span>
+      <small>Recientes</small>
+    </div>
+
+  </section>
+  <!-- Sidebar -->
+    <navbar class="menubar">
+
+      <nav id="categoryMenu">
+
+        <!-- JavaScript crea los botones leyendo categories.json -->
+
+      </nav>
+
+      <!-- <div class="sidebar-footer">
+
+        <h5>Actividad</h5>
+
+        <div id="activityLog"></div>
+
+      </div> -->
+
+    </navbar>
+
+  <!-- Layout -->
+  <main class="layout">
+
+
+
+    <!-- Contenido -->
+    <section class="content">
+
+      <div class="breadcrumb">
+
+        <span id="breadCategory">Inicio</span>
+
+        <!-- <span>></span> -->
+
+        <span id="breadTool">Bienvenido</span>
+
+      </div>
+
+      <div id="toolGrid" class="tool-grid">
+
+        <!-- JavaScript genera aquí las tarjetas -->
+
+      </div>
+
+    </section>
+
+    <!-- Workspace -->
+    <aside class="workspace">
+      <div id="viewer"></div>
+      <div class="viewer-header">
+
+        <h3 id="viewerTitle">
+
+          Bienvenido a ToolBox
+
+        </h3>
+
+      </div>
+
+      <iframe id="viewer" name="viewer" src="inicio.html">
+
+      </iframe>
+
+    </aside>
+
+  </main>
+
+  <!--==========================================
+            STATUS BAR
+===========================================-->
+  <footer class="status-bar">
+    <div class="status-left">
+      <span>
+        <i class="bi bi-cpu"></i>
+        ToolBox 2.0
+      </span>
+      <span id="statusMessage">
+        Aplicación lista
+      </span>
+    </div>
+    <div class="status-right">
+      <span>
+        <i class="bi bi-code-slash"></i>
+        HTML
+      </span>
+      <span>
+        <i class="bi bi-palette"></i>
+        CSS
+      </span>
+      <span>
+        <i class="bi bi-filetype-js"></i>
+        JavaScript
+      </span>
+      <span id="clock">
+        00:00:00
+      </span>
+    </div>
+  </footer>
+  <!--==================================
+        TOAST
+===================================-->
+
+  <div id="toast" class="toast">
+
+    <i class="bi bi-check-circle-fill"></i>
+
+    <span id="toastText">
+
+      Bienvenido a ToolBox
+
+    </span>
+
+  </div>
+  <!--==========================================
+            COMMAND PALETTE
+===========================================-->
+
+  <div id="commandPalette" class="command-palette">
+
+    <div class="palette-box">
+
+      <input id="paletteInput" type="text" placeholder="Buscar herramienta...">
+
+      <div id="paletteResults">
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="breadcrumb">
+
+
+  </div>
+  <section id="diagnostico" class="tool-section active">
+
+
+  </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
