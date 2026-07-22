@@ -1,0 +1,125 @@
+[
+    {
+        "id": "angryip",
+        "name": "Angryip",
+        "category": "redes",
+        "description": "redes",
+        "url": "https://www.amd.com/es/support/download/drivers.html",
+        "icon": "assets/redes/angryIp.jpeg",
+        "open": "Se abrirá en otra ventana",
+        "target": "_blank",
+         "platform": [
+        "Windows","Linux"
+    ],
+       "featured": false,
+        "favorite": false,
+        "lastUpdate": "2026-07-16",
+        "tags": [
+            "redes",
+            "testeo"
+        ]
+    },
+
+    {
+        "id": "whireshark",
+        "name": "WhireShark",
+        "category": "redes",
+        "description": "analizador y capturador de trafico de cualquier targeta de red",
+        "url": "https://www.wireshark.org/",
+        "icon": "assets/redes/whires.jpeg",
+        "open": "Se abrirá en otra ventana",
+        "target": "_blank",
+         "platform": [
+        "Windows","Linux"
+    ],
+       "featured": false,
+        "favorite": false,
+        "lastUpdate": "2026-07-16",
+        "tags": [
+            "redes",
+            "trafico"
+        ]
+    },
+        {
+        "id": "calculadora",
+        "name": "Calculadora de Red",
+        "category": "redes",
+        "description": "Calculadora para el diseño de redes y el cálculo de subredes, rangos de hosts, direcciones de difusión (broadcast) y conversiones binarias,",
+        "url": "https://www.calculadora-redes.com/",
+        "icon": "assets/redes/calculator.png",
+        "open": "Se abrirá en otra ventana",
+        "target": "_blank",
+         "platform": [
+        "Windows","Linux"
+    ],
+       "featured": false,
+        "favorite": false,
+        "lastUpdate": "2026-07-16",
+        "tags": [
+            "drivers",
+            "asrock"
+        ]
+
+    },
+    {
+        "id": "fing",
+        "name": "Fing",
+        "category": "redes",
+        "description": "Herramienta para descubrir qué hay en tu red: escanea y lista todos los dispositivos conectados, con su IP, MAC y fabricante, más pruebas de velocidad y detección de intrusos.",
+        "url": "https://www.fing.com/es/",
+        "icon": "assets/redes/fing.png",
+        "open": "",
+
+         "platform": [
+        "Windows","Linux"
+    ],
+       "featured": false,
+        "favorite": false,
+        "lastUpdate": "2026-07-16",
+        "tags": [
+            "drivers",
+            "asrock"
+        ]
+
+    },
+    {
+        "id": "zenmap",
+        "name": "ZenMap",
+        "category": "redes",
+        "description": "Interfaz gráfica para nmap, permite mapear redes, detectar puertos abiertos, identificar servicios y versiones de sistemas operativos de forma visual.",
+        "url": "https://nmap.org/zenmap/",
+        "icon": "assets/redes/zenmap.png",
+        "open": "Para descargar",
+
+         "platform": [
+        "Windows","Linux","Mac"
+    ],
+       "featured": false,
+        "favorite": false,
+        "lastUpdate": "2026-07-16",
+        "tags": [
+            "redes","escaneo","descarga"
+        ]
+
+    },
+    {
+        "id": "networkmanager",
+        "name": "Network Manager",
+        "category": "redes",
+        "description": "Potente herramienta de código abierto para Windows para gestión de redes y la solución de problemas. Centraliza en una única interfaz múltiples utilidades IT como Remote Desktop, PuTTY, PowerShell, TigerVNC, analizador de Wi-Fi, escáneres de IP/puertos y monitor de Ping",
+        "url": "https://github.com/BornToBeRoot/NETworkManager",
+        "icon": "assets/redes/netw.png",
+        "open": "Se abrirá en otra ventana",
+
+         "platform": [
+        "Windows"
+    ],
+       "featured": false,
+        "favorite": false,
+        "lastUpdate": "2026-07-16",
+        "tags": [
+            "redes","escaneo","descarga","monitorizacion"
+        ]
+    }
+
+]

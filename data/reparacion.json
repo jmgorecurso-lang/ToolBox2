@@ -1,0 +1,125 @@
+[
+     
+    {
+        "id": "hirens",
+        "name": "Hiren's Boot",
+        "category": "reparacion",
+        "description": "Live CD con utilidades para resolver problemas de arranque y detectar errores en nuestro ordenador",
+        "url": "https://www.hirensbootcd.org/",
+        "open":"Requiere descarga",
+        "icon": "assets/diagnostico/hirens.jpeg",
+        "license": "GPL",
+         "platform": [
+        "Windows"
+    ],
+       "featured": false,
+        "favorite": false,
+        "lastUpdate": "2026-07-16",
+        "tags": [
+            "USB",
+            "Boot","arranque"
+        ]
+    },
+    {
+        "id": "medicat",
+        "name": "Medicat",
+        "category": "reparacion",
+        "description": "Completo sistema operativo portátil, listo para ser ejecutado desde un pendrive, solución todo en uno te permite solucionar problemas y realizar tareas de mantenimiento.",
+        "url": "https://medicatusb.com/",
+        "open":"Requiere descarga",
+        "icon": "assets/diagnostico/medicat.png",
+        "license": "GPL",
+         "platform": [
+        "Windows","Linux"
+    ],
+       "featured": false,
+        "favorite": false,
+        "lastUpdate": "2026-07-16",
+        "tags": [
+           "USB",
+            "Boot","arranque","reparacion"
+        ]
+    },
+    {
+        "id": "systemrescue",
+        "name": "System Rescue",
+        "category": "reparacion",
+        "description": "Live USB/CD de Linux diseñada específicamente para reparar, diagnosticar y recuperar sistemas operativos (tanto Windows como Linux) tras  un fallo grave.",
+        "url": "https://www.system-rescue.org/",
+        "open":"Requiere descarga",
+        "icon": "assets/diagnostico/rufus.png",
+        "license": "GPL",
+         "platform": [
+        "Windows","Linux"
+    ],
+       "featured": false,
+        "favorite": false,
+        "lastUpdate": "2026-07-16",
+        "tags": [
+            "USB",
+            "Boot","arranque","reparacion"
+        ]
+    },
+    
+    {
+        "id": "gparted",
+        "name": "Gparted",
+        "category": "reparacion",
+        "description": "Live CD de Linux para gestionar, crear o eliminar particiones de nuestro disco duro.",
+        "url": "https://gparted.org/livecd.php",
+        "open":"Se abre en otra ventana",
+        "target": "_blank",
+        "icon": "assets/diagnostico/gparted.png",
+        "license": "GPL",
+         "platform": [
+        "Windows","Linux"
+    ],
+       "featured": false,
+        "favorite": false,
+        "lastUpdate": "2026-07-16",
+        "tags": [
+            "USB",
+            "Boot","arranque","reparacion","particiones"
+        ]
+    },
+    {
+        "id": "rufus",
+        "name": "Rufus",
+        "category": "reparacion",
+        "description": "Crear USB booteables.",
+        "url": "https://rufus.ie/",
+        "open":"",
+        "icon": "assets/diagnostico/rufus.png",
+        "license": "GPL",
+         "platform": [
+        "Windows"
+    ],
+       "featured": false,
+        "favorite": false,
+        "lastUpdate": "2026-07-16",
+        "tags": [
+            "USB",
+            "Boot"
+        ]
+    },
+    {
+        "id": "yumi",
+        "name": "Yumi",
+        "category": "reparacion",
+        "description": "Crear USB Multi-booteables.",
+        "url": "https://pendrivelinux.com/yumi-multiboot-usb-creator/",
+        "icon": "assets/diagnostico/yumi.png",
+        "license": "GPL",
+        "open":"",
+         "platform": [
+        "Windows"
+    ],
+       "featured": false,
+        "favorite": false,
+        "lastUpdate": "2026-07-16",
+        "tags": [
+            "USB",
+            "Boot"
+        ]
+    }
+]
