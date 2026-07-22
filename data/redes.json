@@ -5,7 +5,7 @@
         "category": "redes",
         "description": "redes",
         "url": "https://www.amd.com/es/support/download/drivers.html",
-        "icon": "assets/fabricantes/",
+        "icon": "assets/redes/angryIp.jpeg",
         "open": "Se abrirá en otra ventana",
         "target": "_blank",
          "platform": [
@@ -108,7 +108,7 @@
         "category": "redes",
         "description": "Potente herramienta de código abierto para Windows para gestión de redes y la solución de problemas. Centraliza en una única interfaz múltiples utilidades IT como Remote Desktop, PuTTY, PowerShell, TigerVNC, analizador de Wi-Fi, escáneres de IP/puertos y monitor de Ping",
         "url": "https://github.com/BornToBeRoot/NETworkManager",
-        "icon": "assets/redes/zenmap.png",
+        "icon": "assets/redes/netw.png",
         "open": "Se abrirá en otra ventana",
 
          "platform": [

@@ -6,6 +6,7 @@ let currentCategory = "diagnostico";
 let currentTools = [];
 let category = [];
 let allTools = [];
+const logo = document.getElementById("appLogo");
 
 /*==================================================
                     INICIO
@@ -138,8 +139,10 @@ async function loadCategory(category) {
         createCards(tools);
         updateDashboard(tools);
         document.getElementById("breadCategory").textContent = capitalize(category);
-        const viewer = document.getElementById("viewer");
-       viewer.style.backgroundImage = `url(assets/${category}.png)`;
+        if (logo) {
+        logo.src = "assets/logo/openTB.png";
+    }
+        
 
     }
     catch (error) {
@@ -183,7 +186,7 @@ function openTool(event, title) {
     document.getElementById("breadTool").textContent = title;
     document.getElementById("statusMessage").textContent = "Abriendo " + title + "...";
     showToast(title + " abierto correctamente");
-    const logo = document.getElementById("appLogo");
+    
     if (logo) {
         logo.src = "assets/logo/openTB.png";
     }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/404.css">
+    <title>error</title>
+</head>
+
+<body>
+    <div class="error">
+        <img src="assets/404.webp" alt="404 Not Found" width="750px">
+    </div>
+    <div class="texto">
+        <a href="index.html" style="text-decoration: none;">Volver a la página principal 🚀</a>
+    </div>
+
+    <div class="contenedor">
+        <h1>¿Te has perdido?</h1>
+        <p>Por suerte no puedo llegar a <span id="ubicacion" class="ubicacion">Cargando...</span></p>
+    </div>
+
+    <script>
+        
+        async function mostrarUbicacion() {
+            try {
+                // Usamos ip-api.com que no requiere API Key y evita problemas comunes de CORS
+                const respuesta = await fetch('https://ip-api.com');
+                const datos = await respuesta.json();
+
+                // Comprobamos si la API respondió correctamente
+                if (datos.status === "success") {
+                    document.getElementById('ubicacion').textContent = `${datos.city}, ${datos.country}`;
+                } else {
+                    document.getElementById('ubicacion').textContent = "tu ciudad";
+                }
+            } catch (error) {
+                console.error('Error al obtener la ubicación:', error);
+                document.getElementById('ubicacion').textContent = "ese rinconcito, y aun no veo tu ip...";
+            }
+        }
+
+        // Ejecutar inmediatamente al cargar la página
+        mostrarUbicacion();
+    </script>
+
+
+</body>
+
+</html>

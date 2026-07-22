@@ -1,0 +1,54 @@
+<!-- Cookie Banner -->
+<div id="cookieBanner" class="cookie-banner">
+    <div class="cookie-content">
+        <div class="cookie-text">
+            🍪 Usamos cookies para mejorar tu experiencia, analizar el tráfico y personalizar el contenido. 
+            Al hacer clic en "Aceptar todas", aceptas el uso de todas las cookies. 
+            Puedes personalizar tus preferencias en "Personalizar" o rechazar todas las cookies no esenciales en "Rechazar todas".
+            <a href="#" id="cookiePolicyLink">Más información</a>
+        </div>
+        <div class="cookie-buttons">
+            <button class="cookie-btn cookie-btn-reject" id="rejectCookiesBtn">Rechazar todas</button>
+            <button class="cookie-btn cookie-btn-customize" id="customizeCookiesBtn">Personalizar</button>
+            <button class="cookie-btn cookie-btn-accept" id="acceptCookiesBtn">Aceptar todas</button>
+        </div>
+    </div>
+</div>
+
+<!-- Modal de preferencias de cookies -->
+<div id="cookieModal" class="cookie-modal">
+    <div class="cookie-modal-content">
+        <h3>⚙️ Configuración de Cookies</h3>
+        <p>Elige qué tipo de cookies quieres aceptar:</p>
+        
+        <div class="cookie-option disabled">
+            <label>
+                <span><strong>🍪 Cookies necesarias</strong> - Siempre activas</span>
+                <input type="checkbox" checked disabled>
+            </label>
+            <small>Necesarias para el funcionamiento básico del sitio.</small>
+        </div>
+        
+        <div class="cookie-option">
+            <label>
+                <span><strong>📊 Cookies de análisis</strong> - Google Analytics</span>
+                <input type="checkbox" id="analyticsCookies">
+            </label>
+            <small>Nos ayudan a entender cómo usas nuestro sitio para mejorarlo.</small>
+        </div>
+        
+        <div class="cookie-option">
+            <label>
+                <span><strong>🎨 Cookies de personalización</strong> - Preferencias</span>
+                <input type="checkbox" id="preferencesCookies">
+            </label>
+            <small>Recuerdan tus preferencias para una mejor experiencia.</small>
+        </div>
+        
+        <div class="modal-buttons">
+            <button class="cookie-btn cookie-btn-reject" id="rejectAllModalBtn">Rechazar todas</button>
+            <button class="cookie-btn cookie-btn-customize" id="savePreferencesBtn">Guardar preferencias</button>
+            <button class="cookie-btn cookie-btn-accept" id="acceptAllModalBtn">Aceptar todas</button>
+        </div>
+    </div>
+</div>

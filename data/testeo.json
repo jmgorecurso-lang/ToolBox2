@@ -2,7 +2,7 @@
 {
     "id": "cpuz",
     "name": "CPU-Z",
-    "category": "diagnostico",
+    "category": "testeo",
     "description": "Información detallada del procesador y la memoria.",
     "url": "https://www.cpuid.com/softwares/cpu-z.html",
      "open": "",
@@ -24,7 +24,7 @@
 {
      "id": "crystal",
     "name": "CrystalDiskInfo",
-    "category": "diagnostico",
+    "category": "testeo",
     "description": "Informacion detallada sobre cualquier disco duro, temperatura, número de horas de uso y otros datos esenciales",
     "url": "https://crystalmark.info/en/software/crystaldiskinfo/",
     "open":"",
@@ -46,7 +46,7 @@
 {
      "id": "hwinfo",
     "name": "HWiNFO",
-    "category": "diagnostico",
+    "category": "testeo",
     "description": "Informacion detallada de los componentes de nuestro pc",
     "url": "https://www.hwinfo.com/",
     "open": "Se abrirá en otra ventana",

@@ -13,8 +13,6 @@
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="keywords" content="toolbox">
-  <meta name="description" content="toolbox,utilidades,utils">
 
   <title>ToolBox 2.0</title>
 
@@ -29,13 +27,16 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+  <script src="/components/cookies/script_cookies.js" defer></script>
+  <script src="/components/cookies/script_boton_flotante_preferencias.js" defer></script>
 
 </head>
 
 <body>
 
   <!-- Splash Screen -->
-  <div id="splashScreen"></div>
+  <!-- <div id="splashScreen"></div> -->
 
 
 
@@ -87,7 +88,7 @@
 
     <div class="dashboard-card">
       <span id="recentCounter">0</span>
-      <small>Recientes</small>
+      <small>Recientes (Proximamente)</small>
     </div>
 
   </section>
@@ -224,11 +225,9 @@
 
 
   </div>
-  <section id="diagnostico" class="tool-section active">
-
-
-  </section>
-    <script src="js/script.js"></script>
+ 
+    <!-- contenedor cookies-->
+  <div id="contenedor-cookies"></div>
 </body>
 
 </html>
